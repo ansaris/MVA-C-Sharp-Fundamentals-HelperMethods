@@ -46,14 +46,16 @@ namespace HelperMethods
             string result = String.Format("{0} {1} {2}", 
                 ReverseString(firstName), ReverseString(lastName), ReverseString(birthCity));
                 */
+            /*
             string firstNameReversed = ReverseString(firstName);
             string lastNameReversed = ReverseString(lastName);
             string birthCityReversed = ReverseString(birthCity);
-
+            */
             DisplayResult(
-                firstNameReversed,
-                lastNameReversed,
-                birthCityReversed);
+                ReverseString(firstName),
+                ReverseString(lastName),
+                ReverseString(birthCity)
+                );
             /*
             foreach (char character in firstNameArray)
             {
