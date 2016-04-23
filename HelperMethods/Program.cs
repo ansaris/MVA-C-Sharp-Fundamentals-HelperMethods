@@ -56,6 +56,10 @@ namespace HelperMethods
                 ReverseString(lastName),
                 ReverseString(birthCity)
                 );
+
+            DisplayResult(ReverseString(firstName) + " " 
+                + ReverseString(lastName) + " " 
+                + ReverseString(birthCity));
             /*
             foreach (char character in firstNameArray)
             {
@@ -100,6 +104,13 @@ namespace HelperMethods
                 secondString,
                 thirdString));
         }
-            
+
+        private static void DisplayResult(string message)
+        {
+            Console.WriteLine(String.Format("Results: {0}", message));
+        }
+
+
+
     }
 }
